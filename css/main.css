@@ -82,8 +82,9 @@ h1 {
   text-align: center;
   text-shadow: var(--paragraph) 1px 0 10px;
   line-height: 4.8rem;
+  letter-spacing: 8px;
 }
-button {
+.main-button {
   padding: 12px 32px;
   background: var(--button);
   font-size: 1.8rem;
