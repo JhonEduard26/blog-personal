@@ -29,7 +29,7 @@ main {
 }
 .contacto-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   place-items: center;
   height: 280px;
   padding: 16px;

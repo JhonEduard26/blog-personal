@@ -1,0 +1,53 @@
+.profile-container {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: repeat(2, 140px);
+  place-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 12px;
+  border-top: 1px solid lightgrey;
+}
+.profile-img-container {
+  grid-row: 1 / 3;
+  display: flex;
+  justify-content: flex-end;
+}
+.profile-image {
+  width: 72%;
+}
+.profile-description {
+  grid-row: 1 / 3;
+  width: 72%;
+  margin-right: 48px;
+}
+.profile-description h2 {
+  margin-bottom: 20px;
+}
+.projects-container {
+  width: 100%;
+}
+.projects-title {
+  text-align: center;
+  margin: 16px 0;
+  padding-bottom: 8px;
+}
+.projects-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  width: 80%;
+  margin: 0 auto;
+  border-top: 1px solid lightslategray;
+}
+.project-item-title {
+  margin: 8px 0;
+  font-weight: bolder;
+}
+.project-item img {
+  width: 100%;
+}
+.project-item-description {
+  padding: 16px;
+  padding-left: 0;
+}
