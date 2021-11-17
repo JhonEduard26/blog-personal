@@ -31,7 +31,8 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   place-items: center;
-  height: 280px;
+  gap: 24px;
+  min-height: 280px;
   padding: 16px;
   background-color: var(--secondary);
 }
